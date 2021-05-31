@@ -16,6 +16,7 @@ alert ("welcome to our websit " + userName)
 
 var c = prompt('do you like cats ?')
 
+<<<<<<< HEAD
 function validateinputuser(){
  
 
@@ -30,6 +31,15 @@ function validateinputuser(){
  var catnumber = prompt('How many cats do you want?');
 
 function count(){
+=======
+ while (c!="yes" || c!="No" )
+ {if (c=='yes') 
+ {alert ('thanks'); break;}
+ }
+ 
+ var catnumber = prompt('How many cats do you want?');
+
+>>>>>>> 0b539d18855551605fa18731b513ce989c0d9ece
 for(var i = 0; i < catnumber; i++) {
   
   // document.write(studentsName[i]);
@@ -40,9 +50,12 @@ for(var i = 0; i < catnumber; i++) {
   
   document.write('<img src="https://www.mcicon.com/wp-content/uploads/2021/03/Cat-03.jpg" />')
 }
+<<<<<<< HEAD
 }
 count()
 
+=======
+>>>>>>> 0b539d18855551605fa18731b513ce989c0d9ece
 
 
 // logical 

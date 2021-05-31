@@ -15,47 +15,39 @@ var userName = prompt("Whats your name ?");
 alert ("welcome to our websit " + userName) 
 
 var c = prompt('do you like cats ?')
-
-<<<<<<< HEAD
-function validateinputuser(){
- 
+  
+function validateinputuser(){ 
 
  while (c!="yes" || c!="No" )
- {if (c=='yes') 
+ if (c=='yes') 
  {alert ('thanks'); break;}
  else if (c=='no'){ c= alert ('thanks') ; break;}
  }
- }
-
- validateinputuser()
- var catnumber = prompt('How many cats do you want?');
+ validateinputuser() 
+ 
 
 function count(){
-=======
- while (c!="yes" || c!="No" )
- {if (c=='yes') 
- {alert ('thanks'); break;}
- }
+var catnumber = prompt('How many cats do you want?');
+for (i=0 ; i < catnumber ; i++)
  
- var catnumber = prompt('How many cats do you want?');
+ {
+document.write('<img src="https://www.mcicon.com/wp-content/uploads/2021/03/Cat-03.jpg" />')
+ }
 
->>>>>>> 0b539d18855551605fa18731b513ce989c0d9ece
-for(var i = 0; i < catnumber; i++) {
-  
-  // document.write(studentsName[i]);
+ // document.write(studentsName[i]);
   // if(studentsName[i] == 'Hiba') {
   //   break;
   // }
   // console.log(studentsName[i]);
   
-  document.write('<img src="https://www.mcicon.com/wp-content/uploads/2021/03/Cat-03.jpg" />')
-}
-<<<<<<< HEAD
+  
+//}
+//<<<<<<< HEAD
 }
 count()
+ 
 
-=======
->>>>>>> 0b539d18855551605fa18731b513ce989c0d9ece
+
 
 
 // logical 
